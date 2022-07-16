@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Rosario:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1270px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'DM Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    /*padding: 50px 0 43px;*/
+    background-color: #fff;
+    transition: transform .1s linear;
+}
+
+header.hide {
+    transform: translateY(-100px);
+}
+
+.navigation-text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #222;
+    margin-right: 40px;
+}
+
+h2 {
+    font-family: 'Rosario', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 90px;
+}
+
+.circle-link {
+    height: 40px;
+    width: 40px;
+    padding: 7px;
+    border-radius: 50px;
+    background-color: #F3FBF8;
+}
+
+.ul,
+li {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.section-main {
+    background-color: #F3FBF8;
+    padding-bottom: 30px;
+}
+
+.hero {
+    text-align: center;
+    padding-top: 93px;
+}
+
+.hero-text {
+    display: block;
+    margin: 0 auto;
+    max-width: 637px;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.desc {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #555555;
+    margin-bottom: 40px;
+}
+
+.order-arrow-title {
+    font-weight: 500;
+    font-size: 18px;
+    color: #222222;
+}
+
+.open-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.open-arrow-title {
+    color: #222222;
+}
+
+.arrow-circle {
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+    background: #09A66D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.arrow-circle:hover {
+    background: #ceeedd;
+}
+
+.foliage-img {
+    position: absolute;
+    top: 40px;
+    left: 90px;
+}
+
+.info-block {}
+
+.info-block:last-child {
+    margin-bottom: 50px;
+}
+
+.info-item {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.section-why {
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.benefits {
+    padding: 140px 0 145px;
+}
+
+.about-benefits {
+    padding: 40px 95px 40px 60px;
+    display: flex;
+    align-items: center;
+}
+
+.about-benefits:hover {
+    background: #F3FBF8;
+    border-radius: 8px;
+}
+
+.about-benefits:hover .benefits-circle {
+    background: #ffffff;
+}
+
+.benefits-circle {
+    width: 80px;
+    height: 80px;
+    min-width: 80px;
+    border-radius: 50%;
+    background: #F3FBF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 24px;
+}
+
+.m-bottom {
+    margin-bottom: 56px;
+    padding-right: 25px;
+}
+
+.arrow-down {
+    text-align: center;
+}
+
+.benefits-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 8px;
+}
+
+.benefits-subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #555555;
+    text-align: left;
+}
+
+.align-center {
+    align-items: end;
+}
+
+.benefits .container {
+    position: relative;
+    z-index: 2;
+}
+
+.line {
+    position: absolute;
+    right: 20px;
+    top: 950px;
+    z-index: -1;
+}
+
+.section-special {
+    background-color: #F3FBF8;
+    padding-top: 90px;
+    padding-bottom: 140px;
+}
+
+.special-img {
+    max-height: 600px;
+    max-width: 600px;
+}
+
+.special-foliage-img {
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    z-index: 2;
+}
+
+.carousel-section {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.carousel-control-prev {
+    position: relative;
+    display: flex;
+}
+
+.carousel-control-next {
+    position: relative;
+    display: flex;
+}
+
+.section-order {
+    padding-bottom: 140px;
+}
+
+.download {
+    padding: 11px 24px;
+    background: #F3FBF8;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 50px;
+    color: #333;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.download:hover {
+    background: #ceeedd;
+    color: #404847;
+}
+
+.get-padding {
+    padding-bottom: 40px;
+}
+
+.footer {
+    padding: 67px 0 50px;
+    background: #FCFEFD;
+}
+
+.footer-row {
+    flex-wrap: nowrap;
+}
+
+.footer-title {
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.footer-link {
+    display: block;
+    padding: 0;
+    font-weight: 400;
+    font-size: 18px;
+    color: #555555;
+    margin-bottom: 24px;
+    position: relative;
+    transition: 0.6s;
+}
+
+.footer-link-social {
+    margin-right: 45px;
+}
+
+.footer-about {
+    margin-top: 25px;
+}
+
+.footer-logo-img {
+    margin-bottom: 30px;
+}
+
+.toast-pos {
+    position: fixed;
+    right: 10px;
+    top: 85%;
+}
